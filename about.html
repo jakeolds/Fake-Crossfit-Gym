@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About CrossFit</title>
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css">
+</head> 
+<!-- linked to bootstrap for css. -->
+
+<body> <!-- created navbar that becomes dropdown when small -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Jake's Gym</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <!-- Added a "Request Info" -->
+                    <li class="nav-item">
+                        <a class="nav-link" href="RequestInfo.html">Request Info</a>
+                    </li>
+                    <!-- Added a dropdown button with choices -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
+                            data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                           More
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Location</a>
+                            <a class="dropdown-item" href="#">Pricing</a>
+                            <a class="dropdown-item" href="#">Reviews</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>  
+
+
+    <div class="container mt-4">
+        <h2>Our Mission</h2>
+        <p>At Jake's Gym, our mission is to help people of all fitness levels achieve their goals and
+            lead healthier lives. We believe in pushing boundaries, setting new records, and surpassing
+            limitations.</p>
+
+        <h2>Why Choose Us Even Though We Aren't Real?</h2>
+        <p>We provides a supportive community that encourages you to challenge yourself and
+            push beyond your comfort zone.</p>
+
+        <h2>Join Us Today!</h2>
+        <p>If you're ready to take your fitness journey to the next level, come join us. Our
+            nonexistent trainers will guide you through the workouts, and you'll be amazed at what you can
+            achieve when it's only in your mind!</p>
+
+        <h2>Class Schedule</h2>
+        <table class="table table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>Day</th>
+                    <th>Time</th>
+                    <th>Class</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>6:00 AM</td>
+                    <td>CrossFit WOD</td>
+                </tr>
+                <tr>
+                    <td>Tuesday</td>
+                    <td>7:30 PM</td>
+                    <td>Strength Training</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>5:00 PM</td>
+                    <td>Cardio Blast</td>
+                </tr>
+                <tr>
+                    <td>Thursday</td>
+                    <td>6:30 AM</td>
+                    <td>Functional Fitness</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>6:00 PM</td>
+                    <td>HIIT Workout</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>  
+</body>
+
+</html>
